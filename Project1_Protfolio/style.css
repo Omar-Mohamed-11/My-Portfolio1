@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+.all{
+    background-color: rgba(53, 52, 52, 0.521);
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid rgba(107, 106, 106, 0.205);
+    border-radius: 20px;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(208, 209, 209);
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+.nav{
+    text-align: center;
+}
+.navbar{
+    background-color: rgba(54, 54, 54, 0.767);
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 15px;
+    margin: auto;
+    height: 26px;
+    padding-top: 8px;
+    width: 530px;
+    text-align: center;
+}
+.navbar:hover{
+    background-color: rgb(97, 97, 97);
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(193, 199, 199);
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: 5px;
+    border: 1px solid none;
+    border-radius: 10px;
+}
+.navbar a:hover{
+    color: rgb(67, 192, 250);
+}
+.navbar div:hover{
+    background-color: rgb(31, 30, 30);
+}
+.navbar div{
+    display: inline;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom:5px ;
+    border: 1px solid none;
+    border-radius: 10px;
+}
+
+
+.aboutMe{
+    margin-top: 50px;
+}
+.img1{
+    width:150px ;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(236, 240, 241, 0.6);
+}
+.myPhoto{
+    text-align: center;
+}
+.info{
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+}
+.info h2{
+    color: rgb(193, 196, 196);
+    line-height: 0;
+}
+.info h3{
+    color: rgb(172, 172, 22);
+    line-height: 1;
+}
+h4{
+    color: rgba(191, 191, 192, 0.945);
+}
+.me{
+    background-color: rgba(54, 54, 54, 0.74);
+    padding: 5px 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 16%;
+    margin: 0; 
+}
+
+.media{
+    background-color: rgba(54, 54, 54, 0.74);
+    text-align: center;
+    padding-top:15px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    border-radius: 20px;
+    font-family:'Inter', Arial, sans-serif;
+    margin-top: 70px;
+}
+.media h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(187, 187, 7);
+}
+ul li{
+    text-align: center;
+    padding-bottom: 20px;
+}
+ul div{
+    background-color: rgba(97, 96, 96, 0.404);
+    margin-bottom: 8px;
+    padding-top: 15px;
+    width: 80%;
+    border-radius: 22px;
+    transition: transform 0.3s ease;  /*to make the move more easy*/
+}
+ul div li a{
+    color: rgb(243, 244, 245);
+    text-decoration: none;
+    font-weight: bold;
+}
+ul div li a:hover{
+    color: rgb(67, 192, 250);
+}
+ul div:hover{
+    background-color: rgba(8, 8, 8, 0.575);
+    transform: scale(1.1);
+}
+
+.skills{
+    background-color: rgba(54, 54, 54, 0.74);
+    text-align: center;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    border-radius: 20px;
+    font-family:'Inter', Arial, sans-serif;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.skills h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(187, 187, 7);
+    margin-bottom: 80px;
+}
+.skills img{
+    width: 150px;
+    background-color: rgba(87, 88, 88, 0.24);
+    border-radius: 15px;
+}
+.skills figcaption{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    color: rgb(180, 180, 180);
+    font-weight: bold;
+    font-size:large;
+}
+.skills img:hover{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+footer p{
+    color: rgb(187, 186, 186);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
